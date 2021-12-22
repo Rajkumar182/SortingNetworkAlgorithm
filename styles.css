@@ -1,0 +1,101 @@
+body{
+
+    align-items: center;
+}
+
+.main-body{
+    align-items: center;
+
+}
+
+.each-row {
+  display: flex;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  width: 60%;
+ 
+}
+
+/* for 1st and last row */
+.number {
+  width: 72px;
+  height: 56px;
+  background-color: #111;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 30px;
+  border-radius: 10px;
+}
+
+/* middle boxes and numbers */
+.number-middle {
+    width: 72px;
+    height: 56px;
+    background-color: #111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 10px;
+  }
+
+ /* middle pair boxes */
+.pair-boxes{
+    margin:0 58px;
+    display: flex;
+}
+
+
+
+.button-container {
+ 
+  display: flex;
+  align-items: center;
+  margin: -30px auto;
+  text-align: center;
+  width: 50%;
+  margin-left: 47%;
+}
+
+.click-btn {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+  border-radius: 10px;
+  text-transform: capitalize;
+  
+}
+
+
+
+
+/* Arrow Styling right tilt*/
+.first-right-tilt{
+margin:-30 65px ;
+position: absolute;
+width: 75.01px;
+height: 0px;
+
+border: 3px solid #000000;
+box-sizing: border-box;
+transform: rotate(-47.16deg);
+}
+
+
+/* Arrow left tilt */
+
+.first-left-tilt{
+    margin: -30 120px;
+position: absolute;
+width: 75.74px;
+height: 0px;
+
+border: 3px solid #000000;
+box-sizing: border-box;
+transform: rotate(-132.32deg);
+}
