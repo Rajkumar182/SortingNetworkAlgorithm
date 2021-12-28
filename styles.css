@@ -10,14 +10,14 @@ body {
   display: flex;
   margin: auto;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   width: 60%;
 }
 
 /* for 1st and last row */
 .number {
-  width: 72px;
-  height: 56px;
+  width: 65px;
+  height: 40px;
   background-color: #111;
   color: #ffffff;
   display: flex;
@@ -29,8 +29,8 @@ body {
 
 /* middle boxes and numbers */
 .number-middle {
-  width: 72px;
-  height: 56px;
+  width: 65px;
+  height: 40px;
   background-color: #111;
   color: #ffffff;
   display: flex;
@@ -49,10 +49,10 @@ body {
 .button-container {
   display: flex;
   align-items: center;
-  margin: -30px auto;
+  
   text-align: center;
-  width: 50%;
-  margin-left: 47%;
+  width: 38%;
+  
 }
 
 .click-btn {
