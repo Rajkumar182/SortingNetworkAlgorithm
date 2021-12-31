@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 30px;
+  margin: 0 29px;
   border-radius: 10px;
 }
 
@@ -49,10 +49,9 @@ body {
 .button-container {
   display: flex;
   align-items: center;
-  
+
   text-align: center;
   width: 38%;
-  
 }
 
 .click-btn {
@@ -64,27 +63,336 @@ body {
   text-transform: capitalize;
 }
 
-/* Arrow Styling right tilt*/
-.first-right-tilt-arrow {
-  margin: -30 65px;
+/* Arrow Styling left tilt*/
+.first-left-arrow {
+  margin: -27 55px;
   position: absolute;
   width: 75.01px;
   height: 0px;
 
   border: 3px solid #000000;
   box-sizing: border-box;
-  transform: rotate(-47.16deg);
+  transform: rotate(-40deg);
 }
 
-/* Arrow left tilt */
+/* Arrow right tilt */
 
-.first-left-tilt-arrow {
-  margin: -30 120px;
+.first-right-arrow {
+  margin: -27 115px;
+  position: absolute;
+  width: 75.01px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(40deg);
+}
+
+
+/* Second Right */
+.second-right-arrow {
+  margin: -28 359px;
   position: absolute;
   width: 75.74px;
   height: 0px;
 
   border: 3px solid #000000;
   box-sizing: border-box;
-  transform: rotate(-132.32deg);
+  transform: rotate(-140deg);
 }
+
+/* Second Left Arrow */
+.second-left-arrow {
+  margin: -28 300px;
+  position: absolute;
+  width: 75.74px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(140deg);
+}
+
+/* Third Arrows */
+.third-left-arrow {
+  margin: -28 550px;
+  position: absolute;
+  width: 75.74px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(140deg);
+}
+
+
+.third-right-arrow {
+  margin: -28 605px;
+  position: absolute;
+  width: 75.74px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-140deg);
+}
+
+
+/* Second Row  */
+.second-row-third-straight-arrow {
+  margin: -15 580px;
+  position: absolute;
+  width: 70px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(90deg);
+}
+
+.second-row-third-left-arrow {
+  margin: -15 362px;
+  position: absolute;
+  width: 260px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-165deg);
+}
+
+
+
+.second-row-second-left-arrow {
+  margin: -15 116px;
+  position: absolute;
+  width: 260px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-164deg);
+}
+
+
+
+.second-row-first-right-arrow {
+  margin: -15 115px;
+  position: absolute;
+  width: 260px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(165deg);
+}
+
+
+
+
+.second-row-first-right-arrow {
+  margin: -15 115px;
+  position: absolute;
+  width: 260px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(165deg);
+}
+
+.second-row-second-right-arrow {
+  margin: -14 364px;
+  position: absolute;
+  width: 260px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(163deg);
+}
+
+
+.second-row-first-straight-arrow {
+  margin: -15 85px;
+  position: absolute;
+  width: 76px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(90deg);
+}
+
+
+
+
+/* fourth Row Arrows */
+
+.fourth-row-first-left-arrow {
+  margin: -90px -35px;
+  position: absolute;
+  width: 235px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(70deg);
+}
+
+
+
+
+
+
+
+.fourth-row-first-right-arrow {
+  margin: -14 105px;
+  position: absolute;
+  width: 150px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(150deg);
+}
+
+.fourth-row-second-left-arrow {
+  margin: -14 235px;
+  position: absolute;
+  width: 150px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-150deg);
+}
+
+.fourth-row-second-right-arrow {
+  margin: -14 350px;
+  position: absolute;
+  width: 150px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(150deg);
+}
+
+
+
+.fourth-row-third-left-arrow {
+  margin: -14 480px;
+  position: absolute;
+  width: 150px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-150deg);
+}
+
+.fourth-row-six-right-arrow {
+  margin: -90px 540px;
+  position: absolute;
+  width: 235px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-70deg);
+}
+
+/* fourth Row Arrow End */
+
+
+
+/* Fifth Row Arrows */
+
+.fifth-row-first-left-arrow {
+  margin: -35px 142px;
+  position: absolute;
+  width: 140px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(60deg);
+}
+
+
+.fifth-row-first-right-arrow {
+  margin: -5px 240px;
+  position: absolute;
+  width: 140px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-25deg);
+}
+
+
+
+
+
+
+
+.fifth-row-second-left-arrow {
+  margin: -5px 360px;
+  position: absolute;
+  width: 140px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(25deg);
+}
+
+
+
+
+
+.fifth-row-second-right-arrow {
+  margin: -35px 455px;
+  position: absolute;
+  width: 140px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-60deg);
+}
+
+/* Fifth Row Arrows End */
+
+
+
+/* Sixth Row Arrow */
+
+.sixth-row-first-left-arrow {
+  margin: -15px 285px;
+  position: absolute;
+  width: 90px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(20deg);
+}
+
+
+
+
+
+.sixth-row-first-right-arrow {
+  margin: -15px 358px;
+  position: absolute;
+  width: 90px;
+  height: 0px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-20deg);
+}
+/* Sixth Row Arrow */
