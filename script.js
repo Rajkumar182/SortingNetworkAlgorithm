@@ -76,7 +76,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepFirstButton = document.createElement("BUTTON");
-stepFirstButton.innerHTML = "Step 1";
+stepFirstButton.innerHTML = "STEP 1";
 
 // add the button to the div
 myDiv.appendChild(stepFirstButton);
@@ -204,7 +204,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepSecondButton = document.createElement("BUTTON");
-stepSecondButton.innerHTML = "Step 2";
+stepSecondButton.innerHTML = "STEP 2";
 
 // add the button to the div
 myDiv.appendChild(stepSecondButton);
@@ -342,7 +342,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepThirdButton = document.createElement("BUTTON");
-stepThirdButton.innerHTML = "Step 3";
+stepThirdButton.innerHTML = "STEP 3";
 
 // add the button to the div
 myDiv.appendChild(stepThirdButton);
@@ -475,7 +475,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepFourthButton = document.createElement("BUTTON");
-stepFourthButton.innerHTML = "Step 4";
+stepFourthButton.innerHTML = "STEP 4";
 
 // add the button to the div
 myDiv.appendChild(stepFourthButton);
@@ -588,7 +588,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepFifthButton = document.createElement("BUTTON");
-stepFifthButton.innerHTML = "Step 5";
+stepFifthButton.innerHTML = "STEP 5";
 
 // add the button to the div
 myDiv.appendChild(stepFifthButton);
@@ -690,7 +690,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepSixthButton = document.createElement("BUTTON");
-stepSixthButton.innerHTML = "Step 6";
+stepSixthButton.innerHTML = "STEP 6";
 
 // add the button to the div
 myDiv.appendChild(stepSixthButton);
@@ -771,7 +771,7 @@ var myDiv = document.getElementById("button-container");
 
 // create the button object and add the text to it
 var stepSeventhButton = document.createElement("BUTTON");
-stepSeventhButton.innerHTML = "Step 7";
+stepSeventhButton.innerHTML = "STEP 7";
 
 // add the button to the div
 myDiv.appendChild(stepSeventhButton);
