@@ -54,6 +54,12 @@ body {
   width: 38%;
 }
 
+/* :hover {
+    cursor: hand;
+    color: #000000;
+    background-color: #000000;
+  } */
+
 .click-btn {
   padding: 10px;
   border: none;
@@ -87,7 +93,6 @@ body {
   box-sizing: border-box;
   transform: rotate(40deg);
 }
-
 
 /* Second Right */
 .second-right-arrow {
@@ -125,7 +130,6 @@ body {
   transform: rotate(140deg);
 }
 
-
 .third-right-arrow {
   margin: -28 605px;
   position: absolute;
@@ -136,7 +140,6 @@ body {
   box-sizing: border-box;
   transform: rotate(-140deg);
 }
-
 
 /* Second Row  */
 .second-row-third-straight-arrow {
@@ -161,8 +164,6 @@ body {
   transform: rotate(-165deg);
 }
 
-
-
 .second-row-second-left-arrow {
   margin: -15 116px;
   position: absolute;
@@ -174,8 +175,6 @@ body {
   transform: rotate(-164deg);
 }
 
-
-
 .second-row-first-right-arrow {
   margin: -15 115px;
   position: absolute;
@@ -186,9 +185,6 @@ body {
   box-sizing: border-box;
   transform: rotate(165deg);
 }
-
-
-
 
 .second-row-first-right-arrow {
   margin: -15 115px;
@@ -212,7 +208,6 @@ body {
   transform: rotate(163deg);
 }
 
-
 .second-row-first-straight-arrow {
   margin: -15 85px;
   position: absolute;
@@ -223,9 +218,6 @@ body {
   box-sizing: border-box;
   transform: rotate(90deg);
 }
-
-
-
 
 /* fourth Row Arrows */
 
@@ -239,12 +231,6 @@ body {
   box-sizing: border-box;
   transform: rotate(70deg);
 }
-
-
-
-
-
-
 
 .fourth-row-first-right-arrow {
   margin: -14 105px;
@@ -279,8 +265,6 @@ body {
   transform: rotate(150deg);
 }
 
-
-
 .fourth-row-third-left-arrow {
   margin: -14 480px;
   position: absolute;
@@ -305,8 +289,6 @@ body {
 
 /* fourth Row Arrow End */
 
-
-
 /* Fifth Row Arrows */
 
 .fifth-row-first-left-arrow {
@@ -320,7 +302,6 @@ body {
   transform: rotate(60deg);
 }
 
-
 .fifth-row-first-right-arrow {
   margin: -5px 240px;
   position: absolute;
@@ -332,12 +313,6 @@ body {
   transform: rotate(-25deg);
 }
 
-
-
-
-
-
-
 .fifth-row-second-left-arrow {
   margin: -5px 360px;
   position: absolute;
@@ -348,10 +323,6 @@ body {
   box-sizing: border-box;
   transform: rotate(25deg);
 }
-
-
-
-
 
 .fifth-row-second-right-arrow {
   margin: -35px 455px;
@@ -366,8 +337,6 @@ body {
 
 /* Fifth Row Arrows End */
 
-
-
 /* Sixth Row Arrow */
 
 .sixth-row-first-left-arrow {
@@ -380,10 +349,6 @@ body {
   box-sizing: border-box;
   transform: rotate(20deg);
 }
-
-
-
-
 
 .sixth-row-first-right-arrow {
   margin: -15px 358px;
