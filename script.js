@@ -74,7 +74,7 @@ var startButton = document.getElementById("start-button");
 // get the element you want to add the button to
 var myDiv = document.getElementById("button-container");
 
-// create the button object and add the text to it
+ // create the button object and add the text to it
 var stepFirstButton = document.createElement("BUTTON");
 stepFirstButton.innerHTML = "STEP 1";
 

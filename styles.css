@@ -2,6 +2,21 @@ body {
   align-items: center;
 }
 
+/* Responsive Media Query  */
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    
+
+
+
+    
+  }
+} */
+
+/* Responsive Media Query */
+
 .main-body {
   align-items: center;
 }
@@ -36,7 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   border-radius: 10px;
 }
 
