@@ -151,7 +151,7 @@ body {
   
   /* Second Row  */
   .second-row-third-straight-arrow {
-    margin: -15 580px;
+    margin: -15 350px !important;
     position: absolute;
     width: 70px;
     height: 0px;
@@ -162,64 +162,56 @@ body {
   }
   
   .second-row-third-left-arrow {
-    margin: -15 362px;
+    margin: -12 225px !important;
     position: absolute;
-    width: 260px;
+    width: 175px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-165deg);
+    transform: rotate(-155deg) !important;
+  }
+
+  
+  .second-row-first-right-arrow {
+    margin: -15 65px !important;
+    position: absolute;
+    width: 175px !important;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(156deg) !important;
   }
   
+
+    
   .second-row-second-left-arrow {
-    margin: -15 116px;
+    margin: -12 65px !important;
     position: absolute;
-    width: 260px;
+    width: 175px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-164deg);
+    transform: rotate(-155deg) !important;
   }
-  
-  .second-row-first-right-arrow {
-    margin: -15 115px;
-    position: absolute;
-    width: 260px;
-    height: 0px;
-  
-    border: 3px solid #000000;
-    box-sizing: border-box;
-    transform: rotate(165deg);
-  }
-  
-  .second-row-first-right-arrow {
-    margin: -15 115px;
-    position: absolute;
-    width: 260px;
-    height: 0px;
-  
-    border: 3px solid #000000;
-    box-sizing: border-box;
-    transform: rotate(165deg);
-  }
-  
+
   .second-row-second-right-arrow {
-    margin: -14 364px;
+    margin: -14 220px !important;
     position: absolute;
-    width: 260px;
+    width: 180px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(163deg);
+    transform: rotate(156deg) !important;
   }
   
   .second-row-first-straight-arrow {
-    margin: -15 85px;
+    margin: -13 39px !important;
     position: absolute;
-    width: 76px;
+    width: 76px !important;
     height: 0px;
   
     border: 3px solid #000000;
@@ -230,69 +222,69 @@ body {
   /* fourth Row Arrows */
   
   .fourth-row-first-left-arrow {
-    margin: -80px -28px;
+    margin: -80px -54px !important;
     position: absolute;
-    width: 225px;
+    width: 215px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(70deg);
+    transform: rotate(78deg) !important;
   }
   
   .fourth-row-first-right-arrow {
-    margin: -14 105px;
+    margin: -14 60px !important;
     position: absolute;
-    width: 150px;
+    width: 115px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(150deg);
+    transform: rotate(140deg) !important;
   }
   
   .fourth-row-second-left-arrow {
-    margin: -14 235px;
+    margin: -12 139px !important;
     position: absolute;
-    width: 150px;
+    width: 110px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-150deg);
+    transform: rotate(-138deg) !important;
   }
   
   .fourth-row-second-right-arrow {
-    margin: -14 350px;
+    margin: -14 215px !important;
     position: absolute;
-    width: 150px;
+    width: 115px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(150deg);
+    transform: rotate(140deg) !important;
   }
   
   .fourth-row-third-left-arrow {
-    margin: -14 480px;
+    margin: -12 294px !important;
     position: absolute;
-    width: 150px;
+    width: 110px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-150deg);
+    transform: rotate(-138deg) !important;
   }
   
   .fourth-row-six-right-arrow {
-    margin: -80px 545px;
+    margin: -80px 300px !important;
     position: absolute;
-    width: 220px;
+    width: 220px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-70deg);
+    transform: rotate(-77deg) !important;
   }
   
   /* fourth Row Arrow End */
@@ -300,47 +292,47 @@ body {
   /* Fifth Row Arrows */
   
   .fifth-row-first-left-arrow {
-    margin: -30px 150px;
+    margin: -30px 77px !important;
     position: absolute;
-    width: 130px;
+    width: 120px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(60deg);
+    transform: rotate(68deg) !important;
   }
   
   .fifth-row-first-right-arrow {
-    margin: -5px 240px;
+    margin: -5px 145px !important;
     position: absolute;
-    width: 140px;
+    width: 100px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-20deg);
+    transform: rotate(-33deg) !important;
   }
   
   .fifth-row-second-left-arrow {
-    margin: -5px 360px;
+    margin: -5px 220px !important;
     position: absolute;
-    width: 140px;
+    width: 102px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(20deg);
+    transform: rotate(32deg) !important;
   }
   
   .fifth-row-second-right-arrow {
-    margin: -30px 460px;
+    margin: -30px 273px !important;
     position: absolute;
-    width: 125px;
+    width: 120px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-60deg);
+    transform: rotate(-69deg) !important;
   }
   
   /* Fifth Row Arrows End */
@@ -348,25 +340,25 @@ body {
   /* Sixth Row Arrow */
   
   .sixth-row-first-left-arrow {
-    margin: -14px 296px;
+    margin: -12px 180px !important;
     position: absolute;
-    width: 75px;
+    width: 60px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(20deg);
+    transform: rotate(30deg) !important;
   }
   
   .sixth-row-first-right-arrow {
-    margin: -12px 358px;
+    margin: -12px 225px !important;
     position: absolute;
-    width: 80px;
+    width: 60px !important;
     height: 0px;
   
     border: 3px solid #000000;
     box-sizing: border-box;
-    transform: rotate(-20deg);
+    transform: rotate(-30deg) !important;
   }
   /* Sixth Row Arrow */
   
