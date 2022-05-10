@@ -5,18 +5,397 @@ body {
 
 /* Responsive Media Query  */
 
-/* @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
   body {
-    background-color: black;
-    
-
-
-
+    /* background-color:grey; */
     
   }
-} */
 
-/* Responsive Media Query */
+  
+
+  .each-row {
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100% !important;
+  
+  }
+  
+  /* for 1st and last row */
+  .number {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    
+    border-radius: 10px;
+    margin:0px 20px !important;
+  }
+  
+  /* middle boxes and numbers */
+  .number-middle {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 10px;
+  }
+  
+  /* middle pair boxes */
+  .pair-boxes {
+    margin: 0 37px !important;
+    display: flex;
+   
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  
+    text-align: center;
+    width: 38%;
+    
+  }
+  
+  
+  .click-btn {
+    padding: 10px;
+    border: none;
+    background-color: grey;
+    color: red;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top:-15px;
+    cursor: pointer;
+  }
+  
+  /* Arrow Styling left tilt*/
+  .first-left-arrow {
+    margin: -25 26px !important;
+    position: absolute;
+    width: 65px !important;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-50deg) !important;
+  }
+  
+  /* Arrow right tilt */
+  
+  .first-right-arrow {
+    margin: -25 65px !important;
+    position: absolute;
+    width: 72px !important;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(45deg) !important;
+  }
+  
+  /* Second Right */
+  .second-right-arrow {
+    margin: -25 220px !important;
+    position: absolute;
+    width: 70px !important;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-137deg) !important;
+  }
+  
+  /* Second Left Arrow */
+  .second-left-arrow {
+    margin: -25 175px !important;
+    position: absolute;
+    width: 70px !important;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(133deg) !important;
+  }
+  
+  /* Third Arrows */
+  .third-left-arrow {
+    margin: -25 330px !important;
+    position: absolute;
+    width: 70px !important;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(132deg) !important;
+  }
+  
+  .third-right-arrow {
+    margin: -25 371px !important;
+    position: absolute;
+    width: 70px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-137deg) !important;
+  }
+  
+  /* Second Row  */
+  .second-row-third-straight-arrow {
+    margin: -15 580px;
+    position: absolute;
+    width: 70px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+  }
+  
+  .second-row-third-left-arrow {
+    margin: -15 362px;
+    position: absolute;
+    width: 260px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-165deg);
+  }
+  
+  .second-row-second-left-arrow {
+    margin: -15 116px;
+    position: absolute;
+    width: 260px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-164deg);
+  }
+  
+  .second-row-first-right-arrow {
+    margin: -15 115px;
+    position: absolute;
+    width: 260px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(165deg);
+  }
+  
+  .second-row-first-right-arrow {
+    margin: -15 115px;
+    position: absolute;
+    width: 260px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(165deg);
+  }
+  
+  .second-row-second-right-arrow {
+    margin: -14 364px;
+    position: absolute;
+    width: 260px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(163deg);
+  }
+  
+  .second-row-first-straight-arrow {
+    margin: -15 85px;
+    position: absolute;
+    width: 76px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+  }
+  
+  /* fourth Row Arrows */
+  
+  .fourth-row-first-left-arrow {
+    margin: -80px -28px;
+    position: absolute;
+    width: 225px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(70deg);
+  }
+  
+  .fourth-row-first-right-arrow {
+    margin: -14 105px;
+    position: absolute;
+    width: 150px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(150deg);
+  }
+  
+  .fourth-row-second-left-arrow {
+    margin: -14 235px;
+    position: absolute;
+    width: 150px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-150deg);
+  }
+  
+  .fourth-row-second-right-arrow {
+    margin: -14 350px;
+    position: absolute;
+    width: 150px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(150deg);
+  }
+  
+  .fourth-row-third-left-arrow {
+    margin: -14 480px;
+    position: absolute;
+    width: 150px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-150deg);
+  }
+  
+  .fourth-row-six-right-arrow {
+    margin: -80px 545px;
+    position: absolute;
+    width: 220px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-70deg);
+  }
+  
+  /* fourth Row Arrow End */
+  
+  /* Fifth Row Arrows */
+  
+  .fifth-row-first-left-arrow {
+    margin: -30px 150px;
+    position: absolute;
+    width: 130px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(60deg);
+  }
+  
+  .fifth-row-first-right-arrow {
+    margin: -5px 240px;
+    position: absolute;
+    width: 140px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-20deg);
+  }
+  
+  .fifth-row-second-left-arrow {
+    margin: -5px 360px;
+    position: absolute;
+    width: 140px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(20deg);
+  }
+  
+  .fifth-row-second-right-arrow {
+    margin: -30px 460px;
+    position: absolute;
+    width: 125px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-60deg);
+  }
+  
+  /* Fifth Row Arrows End */
+  
+  /* Sixth Row Arrow */
+  
+  .sixth-row-first-left-arrow {
+    margin: -14px 296px;
+    position: absolute;
+    width: 75px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(20deg);
+  }
+  
+  .sixth-row-first-right-arrow {
+    margin: -12px 358px;
+    position: absolute;
+    width: 80px;
+    height: 0px;
+  
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-20deg);
+  }
+  /* Sixth Row Arrow */
+  
+
+
+} 
+
+/* Responsive Media Query For Mobile Device End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-body {
   align-items: center;
